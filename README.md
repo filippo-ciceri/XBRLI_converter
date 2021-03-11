@@ -1,6 +1,6 @@
 # XBRLI_converter
 
-XBRLi_converter is a Python library for converting XBRLi filings to simpler XBRL documents.
+XBRLi_converter is a Python package for conversion of XBRLi filings into simpler XBRL documents.
 
 ## Installation
 
