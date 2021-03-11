@@ -4,6 +4,7 @@ Created on Sun Aug  9 15:37:41 2020
 
 @author: Filippo Ciceri
 @site: www.financialdatatree.com
+@site: https://github.com/filippo-ciceri/XBRLI_converter
 
 """
 from bs4 import BeautifulSoup
