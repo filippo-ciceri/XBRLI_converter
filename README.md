@@ -29,7 +29,7 @@ process_files(files, sort=True)
 The output files can be also automatically renamed using the `names` option:
 
 ```python
-names = ['converter_xbrl.xml']
+names = ['output_xbrl.xml']
 
 process_files(files, sort=True, names=names)
 ```
