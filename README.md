@@ -2,7 +2,7 @@
 
 XBRLi_converter is a Python package for conversion of XBRLi filings into simpler XBRL documents.
 
-XBRLi_converter is part of the tools used to build [www.financialdatatree.com](https://www.financialdatatree.com/) an XBRL-powered website offering easy and free access to a see of fundamental data of publicly traded US companies.
+XBRLi_converter is one of the tools used to build [www.financialdatatree.com](https://www.financialdatatree.com/), an XBRL-powered website offering easy and free access to a see of fundamental data of publicly traded US companies.
 Visit [www.financialdatatree.com](https://www.financialdatatree.com/) for more details.
 
 ## Installation
