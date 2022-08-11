@@ -4,7 +4,6 @@ Created on Sun Aug  9 15:37:41 2020
 
 @author: Filippo Ciceri
 @site: www.financialdatatree.com
-@site: https://github.com/filippo-ciceri/XBRLI_converter
 
 """
 from bs4 import BeautifulSoup
@@ -342,6 +341,10 @@ def process_files(files, sort=True, names=[]):
             name = nf['name']
             value = nf.text.replace(',','')
             if value.replace('.','').isdigit():
+                if '..' in value:
+                    value = value.replace('..','.')
+                if re.match("([0-9]+)\.([0-9]+)\.([0-9]+)", value):
+                    value = value.replace(".","")
                 value = float(value)
             else:
                 continue
